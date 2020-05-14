@@ -1,6 +1,6 @@
 Platform=unknown
 
-if grep -q "jetson-nano" /proc/device-tree/model;
+if grep -q "Jetson Nano" /proc/device-tree/model;
 then
 echo I run on Nano
 Platform=nano
